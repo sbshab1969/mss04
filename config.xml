@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <resource name="oracle.conf">
+    <user>pbill03</user>
+    <password>pbill</password>
+    <connectionString>jdbc:oracle:thin:@10.141.1.1:1521:lotus11g</connectionString>
+    <driver>oracle.jdbc.OracleDriver</driver>
+  </resource>
+  <resource name="oracle_ssh">
+    <user>pbill03</user>
+    <password>pbill</password>
+    <connectionString>jdbc:oracle:thin:@127.0.0.1:11521:lotus11g</connectionString>
+    <driver>oracle.jdbc.OracleDriver</driver>
+  </resource>
+</resources>
